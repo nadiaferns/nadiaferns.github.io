@@ -183,8 +183,8 @@ a:hover { color: #FF0; }
 
 
 .service-content {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 35px;
+  padding-right: 35px;
   padding-top: 15vh;
   background-image: url(../img/2nd-section.jpg);
   background-attachment: fixed;
@@ -204,7 +204,7 @@ h4, .h4 {
 }
 
 .service-content .left-text .line-dec {
-  width: 45px;
+  width: 65px;
   height: 3px;
   background-color: #ff7d27;
   margin: 20px 0px 20px 0px;
@@ -212,12 +212,6 @@ h4, .h4 {
 
 .service-content .left-text p {
   color: #fff;
-}
-
-.service-content .left-text ul {
-  padding: 0;
-  margin-top: 30px;
-  list-style: none;
 }
 
 .service-content .left-text ul li {
@@ -232,10 +226,11 @@ h4, .h4 {
 
 .service-content .service-item {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 25px 30px;
+  padding: 30px 30px;
   text-align: center;
   color: #fff;
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 
 .service-content .service-item .line-dec {
@@ -245,25 +240,24 @@ h4, .h4 {
   margin: 20px auto 15px auto;
 }
 
-
-.portfolio-content {
-  padding-top: 20vh;
-  background-image: url(../img/port.jpg);
-  align-items: center;
-  color: white;
-}
-.portfolio-content h3{
-  font-size: larger;
-  font-weight: 700;
-}
 .projects-content {
   padding-top: 15vh;
   background-image: url(../img/col.jpg);
+  background-size: cover;
   height: auto;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fa24d6;
+}
+.projects-content p{
+  font-weight: 700;
+  font-size: 20px;
 }
 .projects-content h1{
   text-align: center;
   font-weight: 800;
+  font-size: xx-large;
 }
 
 .projects-content .item img {
@@ -273,10 +267,7 @@ h4, .h4 {
 .projects-content .item {
   margin: 15px;
 }
-.projects-content{
-  color: #fa24d6;
-  font-weight: 700;
-}
+
 .projects-content .item .text-content {
   background-color: #fff;
   text-align: center;
@@ -293,7 +284,7 @@ h4, .h4 {
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #ff7d27;
+  color: #ff27d0;
 }
 
 .owl-pagination {
@@ -380,10 +371,11 @@ section {
 }
 .skill-mf span {
   color: #fa01ed;
+  font-size: large;
 }
 .skill-mf p{
   color: #fd3bd3;
-  font-size: xx-large;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
@@ -391,8 +383,8 @@ section {
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
+  border-radius: 2;
+  height: .5rem;
 }
 
 .skill-mf .progress .progress-bar {
@@ -405,6 +397,7 @@ section {
   padding-right: 15px;
   padding-top: 16vh;
   background-image: url(../img/img5.jpg);
+  align-items: center;
 }
 .contact-content p{
   color: #130877;
@@ -468,6 +461,9 @@ section {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   padding: 30px 20px;
+}
+.contact-content img{
+  align-items: center;
 }
 
 
